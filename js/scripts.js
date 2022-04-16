@@ -16,11 +16,11 @@ $(function () {
 // end carousel function
 
 // Jquery functions to open and close Modals
-$("#reserveButton").click(function () {
+$("#reserveButton").click(() => {
     $("#reserveModal").modal("show");
 });
 
-$("#loginButton").click(function () {
+$("#loginButton").click(() => {
     $("#loginModal").modal("show");
 });
 // end Modal functions
